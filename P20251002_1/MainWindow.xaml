@@ -7,8 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
             <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
+        <Label Content="Adatok bekérése" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="4" Grid.Row="1" FontSize="24px"/>
+        <Label Content="Név:" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="2" FontSize="24px" Margin="50, 0, 0, 0"/>
+        <Label Content="Cím:" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="3" FontSize="24px" Margin="50, 0, 0, 0"/>
+        <Label Content="E-mail:" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="4" FontSize="24px" Margin="50, 0, 0, 0"/>
+        <TextBox Width="180" Height="40" Grid.Column="2" Grid.Row="2"/>
+        <TextBox Width="180" Height="40" Grid.Column="2" Grid.Row="3"/>
+        <TextBox Width="180" Height="40" Grid.Column="2" Grid.Row="4"/>
+        s
     </Grid>
 </Window>
